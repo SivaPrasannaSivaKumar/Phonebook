@@ -1,0 +1,11 @@
+<div id="container">
+  <label for="country" id="text">Select a country</label>
+  <select name="country" id="country">
+    <option value="India">India</option>
+    <option value="US">United States</option>
+    <option value="China">China</option>
+  </select>
+  <input type="tel" id="phone" (ngModel)="number"/>
+  <p>{{number}}</p>
+  <p>{{number | number}}</p>
+</div>

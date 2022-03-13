@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PipePhonebookComponent } from './pipe-phonebook.component';
+import { PhoneComponent } from './phone.component';
 
-describe('PipePhonebookComponent', () => {
-  let component: PipePhonebookComponent;
-  let fixture: ComponentFixture<PipePhonebookComponent>;
+describe('PhoneComponent', () => {
+  let component: PhoneComponent;
+  let fixture: ComponentFixture<PhoneComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PipePhonebookComponent ]
+      declarations: [ PhoneComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PipePhonebookComponent);
+    fixture = TestBed.createComponent(PhoneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
